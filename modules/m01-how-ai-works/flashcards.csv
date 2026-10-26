@@ -1,0 +1,27 @@
+Front,Back,Tags
+What does an LLM output at each step?,A probability for every possible next token. One is picked and the process repeats.,w1
+What is a token?,"A chunk of text (a word, part of a word, a space or punctuation) that the model reads and writes.",w1
+Why can counting letters in a word be hard for an LLM?,"It sees tokens (chunks), not individual letters.",w1
+What is an embedding?,The list of numbers representing a token's meaning. Similar meanings have similar lists.,w1
+What is the context window?,"Everything the model can see at once: instructions, files, the conversation and its own replies.",w1
+Why can the same prompt give different answers?,"Sampling: the next token is drawn with some randomness, not always the most likely one.",w1
+"Does a fluent, confident answer mean it's correct?","No. Fluency shows the model has seen text shaped like that, not that the facts are right.",w1
+What should you always do with figures Claude calculates for your business?,Recalculate them yourself or in a spreadsheet.,w1
+What is a base model?,A model after pretraining only. It continues documents rather than acting as an assistant.,w2
+What are the two main parts of post-training?,"Supervised fine-tuning on example conversations, and reinforcement learning from scored outputs.",w2
+Does post-training add much new knowledge?,No. Knowledge mostly comes from pretraining; post-training shapes behaviour.,w2
+What is a knowledge cutoff?,The date training data ends. Later events are unknown unless provided or searched.,w2
+What does attention do?,Lets each token update its meaning using the other tokens in the context.,w2
+Why can 'Why is X the best?' be a poor prompt?,Assistants tend to go along with the premise. Ask a neutral question instead.,w2
+Can you trust a model's explanation of its own reasoning?,Not fully. Interpretability research found explanations can differ from what happened inside the model.,w2
+How can you see sampling variation in claude.ai?,Regenerate the answer and compare. Facts that change between versions are unreliable.,w2
+"Why do models hallucinate, according to Kalai et al. (2025)? Two reasons.","Rare facts can't be learned reliably in pretraining, and tests reward guessing over saying 'I don't know'.",w3
+Which kinds of facts are most likely to be hallucinated?,"Rare, specific ones: prices, dates, small organisations, statistics, quotations, citations.",w3
+Does web search eliminate hallucinations?,No. Claude can misread sources or cite pages that don't support the claim. Open the citations.,w3
+What is a primary source?,"The original source: the organisation's own site, the study itself, the official document.",w3
+What is the first step in verifying a long AI answer?,Ask Claude to list every factual claim as a numbered list.,w3
+What is context rot?,The decline in how well a model uses information as the context grows longer.,w3
+What's a good habit when a long chat starts going wrong?,Ask for a summary of decisions so far and continue in a fresh chat.,w3
+What did METR's 2025 study find about perceived vs measured speed?,"Developers felt faster with AI but were measured as slower. Impressions can mislead, so measure.",w3
+What should you remove before pasting a member list into an AI tool?,"Personal data such as names and emails, unless the task truly needs them.",w3
+What does 'Help improve Claude' control?,Whether your chats can be used for training (and kept up to five years) or not (30-day retention after deletion).,w3
