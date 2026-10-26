@@ -24,18 +24,20 @@ Weeks 1–12 need no programming. From week 13 prerequisites are strict: coding 
 - **P4 sampler:** foley instrument with several banks and XY-pad blending; targets VST3 and AU on macOS first (Cubase and Ableton), with Windows and Linux later. Week 25 target is one playable bank; XY blending is stretch.
 - **P5 toothpaste:** design-led statement brand in a striking pump dispenser; discovery tests this concept.
 
+- **Book club plan from week 1 (D1 approved with this change):** every week's independent slot builds part of the P1 plan; one-page v0.5 in week 6, full v1 in week 9. Light, just-in-time business concepts first; Module 4 covers them properly.
+
 ## Week by week
 
 Hours are core hours split as Concept / Guided / Independent / Review. Stretch tasks are optional (up to ~3 h).
 
 | Wk | Module | Focus | Project | Hours C/G/I/R | Stretch |
 | --- | --- | --- | --- | --- | --- |
-| 1 | M1 How AI works | Setup decisions, baseline assessment, tokens and next-token prediction, start of learning system | P6 | 2 / 2 / 1.5 / 1.5 | Tokenizer experiments |
-| 2 | M1 | Training pipeline, embeddings, attention, context windows | P1 | 2.5 / 2 / 2 / 1 | Attention paper walkthrough |
-| 3 | M1 | Hallucination and verification lab, lab vs real-world reliability, privacy and IP. **Assessment** | P1 | 1.5 / 1.5 / 3 / 1.5 | Compare Claude with another model |
-| 4 | M2 Prompt and context engineering | Specification, decomposition, structure, examples, output schemas | P1 | 2 / 2.5 / 2 / 1 | XML vs JSON schema comparison |
-| 5 | M2 | Test sets, rubrics, model-as-grader, regression; separating instructions from untrusted content | P1 | 2 / 2 / 2.5 / 1 | Prompt-injection red-team |
-| 6 | M2 | Context for long projects, prompt library v1. **Assessment** | P1, P2 | 1.5 / 1.5 / 3 / 1.5 | Port a prompt to another vendor |
+| 1 | M1 How AI works | Setup decisions, baseline assessment, tokens and next-token prediction, start of learning system. P1: business snapshot and profitability goal | P1, P6 | 2 / 2 / 1.5 / 1.5 | Tokenizer experiments |
+| 2 | M1 | Training pipeline, embeddings, attention, context windows. P1: customer and audience hypotheses | P1 | 2.5 / 2 / 2 / 1 | Attention paper walkthrough |
+| 3 | M1 | Hallucination and verification lab, lab vs real-world reliability, privacy and IP. P1: verified scan of comparable book clubs and podcasts. **Assessment** | P1 | 1.5 / 1.5 / 3 / 1.5 | Compare Claude with another model |
+| 4 | M2 Prompt and context engineering | Specification, decomposition, structure, examples, output schemas. P1: unit economics model v0 | P1 | 2 / 2.5 / 2 / 1 | XML vs JSON schema comparison |
+| 5 | M2 | Test sets, rubrics, model-as-grader, regression; separating instructions from untrusted content. P1: tested survey and feedback-analysis prompts | P1 | 2 / 2 / 2.5 / 1 | Prompt-injection red-team |
+| 6 | M2 | Context for long projects, prompt library v1. P1: pricing and income-stream options, one-page plan v0.5. **Assessment** | P1, P2 | 1.5 / 1.5 / 3 / 1.5 | Port a prompt to another vendor |
 | 7 | M3 Research and knowledge work | Deep research with traceable sources, source hierarchy, comparing claims | P1 | 1.5 / 2 / 3 / 1 | Source-register template |
 | 8 | M3 | Long documents, structured extraction, qualitative analysis | P1, P2 | 1.5 / 2 / 3 / 1 | Survey design |
 | 9 | M3 | Evidence vs inference vs assumption, decision memos. **Book club and podcast plan v1. Assessment** | P1 | 1 / 1.5 / 4 / 1.5 | Measurement dashboard spec |
@@ -70,11 +72,11 @@ Projects: P1 book club and podcast plan · P2 jazz album release · P3 book club
 
 | # | Decision | Recommendation |
 | --- | --- | --- |
-| D1 | Sequence and week table | Approve, then adjust after Q1–Q6 |
+| D1 | Sequence and week table | **Approved 2026-10-26**, with the book club plan starting in week 1 |
 | D2 | End targets | Sampler prototype plus extension; toothpaste plan as draft |
-| D3 | Main language | Python |
+| D3 | Main language | **Decided 2026-10-26: Python** |
 | D4 | Automation platform | n8n self-hosted, compared with Make, Zapier, plain code |
-| D5 | File home | This GitHub repository |
+| D5 | File home | **Done: this GitHub repository** |
 | D6 | Time policy | 5–6 core hours plus optional stretch |
 | D7 | Feedback rhythm | Weekly check-in |
 | D8 | Spending | Stay within Claude Pro: no API credits or extra usage; free local tools fill the gaps |
