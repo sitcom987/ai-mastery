@@ -75,7 +75,7 @@ Projects: P1 book club and podcast plan · P2 jazz album release · P3 book club
 | D1 | Sequence and week table | **Approved 2026-10-26**, with the book club plan starting in week 1 |
 | D2 | End targets | **Approved 2026-10-26:** simple sampler prototype plus extension; toothpaste plan as draft |
 | D3 | Main language | **Decided 2026-10-26: Python** |
-| D4 | Automation platform | n8n self-hosted, compared with Make, Zapier, plain code |
+| D4 | Automation platform | **Deferred to week 16** (decided after the platform comparison); current lean: n8n self-hosted |
 | D5 | File home | **Done: this GitHub repository** |
 | D6 | Time policy | 5–6 core hours plus optional stretch |
 | D7 | Feedback rhythm | Weekly check-in |
