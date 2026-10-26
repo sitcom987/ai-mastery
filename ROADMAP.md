@@ -77,6 +77,6 @@ Projects: P1 book club and podcast plan · P2 jazz album release · P3 book club
 | D3 | Main language | **Decided 2026-10-26: Python** |
 | D4 | Automation platform | **Deferred to week 16** (decided after the platform comparison); current lean: n8n self-hosted |
 | D5 | File home | **Done: this GitHub repository** |
-| D6 | Time policy | 5–6 core hours plus optional stretch |
+| D6 | Time policy | **Approved 2026-10-26:** 5–6 core hours plus optional stretch; delays shift the schedule |
 | D7 | Feedback rhythm | Weekly check-in |
 | D8 | Spending | Stay within Claude Pro: no API credits or extra usage; free local tools fill the gaps |
