@@ -15,6 +15,15 @@ Four phases, three cumulative assessment gates.
 
 Weeks 1–12 need no programming. From week 13 prerequisites are strict: coding and security before automation, automation before agents.
 
+## Revisions after Adam's answers (2026-10-26)
+
+- **No API spend (D8):** programmatic Claude calls use Claude Code's non-interactive mode within the Pro allowance (Pro usage is shared between Claude and Claude Code); HTTP practice uses free APIs including Stripe test mode; the agent loop runs on a free local model via Ollama.
+- **Environment:** macOS 26.5.1 on a 2022 M2 MacBook Pro; everything runs locally.
+- **Priorities:** book club profitability first, album second. With no release date set, the jazz plan becomes a release framework you can date later.
+- **P3 automation candidates:** Stripe payment, then attendee list, then a confirmation email drafted for approval, then a calendar entry; reminders; feedback form.
+- **P4 sampler:** foley instrument with several banks and XY-pad blending; targets VST3 and AU on macOS first (Cubase and Ableton), with Windows and Linux later. Week 25 target is one playable bank; XY blending is stretch.
+- **P5 toothpaste:** design-led statement brand in a striking pump dispenser; discovery tests this concept.
+
 ## Week by week
 
 Hours are core hours split as Concept / Guided / Independent / Review. Stretch tasks are optional (up to ~3 h).
@@ -35,17 +44,17 @@ Hours are core hours split as Concept / Guided / Independent / Review. Stretch t
 | 12 | Review 1 | Cumulative assessment 1, **personal-development system v1**, roadmap adjustment | P6 | 0.5 / 1 / 4 / 2 | Toothpaste competitor teardown |
 | 13 | M5 Coding foundations | Terminal, git and GitHub, Claude Code install, explore-plan-implement loop | All | 2 / 3 / 1.5 / 1 | Git branching drills |
 | 14 | M5 | Python essentials with tests; reading code; CLAUDE.md | P3 | 2 / 2.5 / 2 / 1 | Tests first for one script |
-| 15 | M5 | HTTP, JSON, APIs, secrets, Claude API, structured outputs, costs, LLM security. **Episode-notes extractor. Assessment** | P3 | 2 / 2 / 2.5 / 1 | Batch processing and caching |
+| 15 | M5 | HTTP, JSON, APIs, secrets (Stripe test mode), programmatic Claude calls via `claude -p`, structured outputs, usage budgeting, LLM security. **Episode-notes extractor. Assessment** | P3 | 2 / 2 / 2.5 / 1 | Batch processing and caching |
 | 16 | M6 Workflow automation | Workflow mapping, scoring candidates, platform comparison with fresh pricing | P3 | 2 / 1.5 / 3 / 1 | Value estimate for top 5 |
 | 17 | M6 | Automation 1 in n8n: triggers, transforms, errors, retries, logs, human approval | P3 | 1 / 2 / 3.5 / 1 | Same flow in Python |
 | 18 | M6 | Automation 2 with approval step; idempotency, monitoring, docs. **Assessment** | P3 | 1 / 1.5 / 4 / 1 | Release-calendar automation |
-| 19 | M7 Agents and MCP | Workflows vs agents; tool-calling loop on the raw API; permissions and stop conditions | P3 | 2 / 2.5 / 2 / 1 | Compare one agent framework |
+| 19 | M7 Agents and MCP | Workflows vs agents; tool-calling loop on a local model (Ollama); permissions and stop conditions | P3 | 2 / 2.5 / 2 / 1 | Compare one agent framework |
 | 20 | M7 | MCP server over the research library; embeddings, retrieval, RAG | P1, P6 | 2 / 2 / 2.5 / 1 | Vector vs keyword search |
 | 21 | M7 | Bounded agent with eval suite, tracing, cost caps, injection tests, oversight. **Assessment** | P2, P3 | 1 / 1 / 4.5 / 1 | Second agent design review |
-| 22 | Review 2 | Cumulative assessment 2; Claude Code skills, hooks, subagents; sampler spec interview | P4 | 1 / 1.5 / 3 / 2 | Toothpaste plan v2 |
+| 22 | Review 2 | Cumulative assessment 2; Claude Code skills, hooks, subagents; sampler spec interview; C++ warm-up | P4 | 1 / 1.5 / 3 / 2 | Toothpaste plan v2 |
 | 23 | M8 AI-assisted software engineering | Sampler spec and architecture, C++ essentials, JUCE and CMake, empty plugin builds | P4 | 2 / 2.5 / 2.5 / 0.5 | Read JUCE examples with Claude |
 | 24 | M8 | Audio fundamentals, real-time thread rules; load a sample, play from MIDI | P4 | 2 / 2 / 3 / 0.5 | Unit tests for sample loading |
-| 25 | M8 | Gain and envelope, basic UI, tests, plugin validation in a DAW, reviewing AI-written C++ | P4 | 1 / 2 / 4 / 0.5 | Second OS or format |
+| 25 | M8 | One foley bank playable as an instrument: gain and envelope, basic UI, tests, validation in Ableton and Cubase (VST3 and AU), reviewing AI-written C++ | P4 | 1 / 2 / 4 / 0.5 | Two-bank XY blend |
 | 26 | Final review | Capstone demo, final assessment, extension plan | All | 0.5 / 0.5 / 3 / 3.5 | |
 
 Projects: P1 book club and podcast plan · P2 jazz album release · P3 book club and podcast automations · P4 sampler plugin · P5 toothpaste business plan · P6 personal-development system.
@@ -68,3 +77,4 @@ Projects: P1 book club and podcast plan · P2 jazz album release · P3 book club
 | D5 | File home | This GitHub repository |
 | D6 | Time policy | 5–6 core hours plus optional stretch |
 | D7 | Feedback rhythm | Weekly check-in |
+| D8 | Spending | Stay within Claude Pro: no API credits or extra usage; free local tools fill the gaps |
