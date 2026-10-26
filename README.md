@@ -1,6 +1,6 @@
 # AI Mastery Programme
 
-Status: **proposed** (Phase 1). Nothing in this repository is approved course material yet.
+Status: roadmap **approved** 2026-10-26. Module 1 in preparation.
 
 A 26-week, 5–10 hours-a-week programme that takes Adam from intermediate AI use to advanced, practical competence: understanding modern AI systems, prompt and context engineering, research workflows, automation, agents, Claude Code, and AI-enabled business design. It is anchored on six real projects.
 
@@ -8,7 +8,7 @@ A 26-week, 5–10 hours-a-week programme that takes Adam from intermediate AI us
 
 | File | Purpose | Status |
 | --- | --- | --- |
-| [ROADMAP.md](ROADMAP.md) | Week-by-week plan, sequence rationale, feasibility flags | Proposed, awaiting approval |
+| [ROADMAP.md](ROADMAP.md) | Week-by-week plan, sequence rationale, feasibility flags | Approved |
 | [SOURCE_REGISTER.md](SOURCE_REGISTER.md) | Every source used, with dates and reliability notes | Researched (Phase 1) |
 | [RESEARCH_BACKLOG.md](RESEARCH_BACKLOG.md) | Open questions and items to re-check | Active |
 | [PROGRESS.md](PROGRESS.md) | Completed work, assessment results, next task | Active |
